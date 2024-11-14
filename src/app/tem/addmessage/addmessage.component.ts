@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MessageserviceService } from '../messageservice.service';
 
+
 @Component({
   selector: 'app-addmessage',
   standalone: true,
@@ -10,5 +11,4 @@ import { MessageserviceService } from '../messageservice.service';
 })
 export class AddmessageComponent {
   constructor(public messajeService: MessageserviceService){}
-
 }

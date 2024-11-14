@@ -1,4 +1,3 @@
-
 import { Component,  OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AlumnoFilterPipe } from '../alumnos-filter.pipe';
@@ -76,4 +75,3 @@ export default class AlumnosComponent implements OnInit {
 }
  
 }
- 

@@ -6,13 +6,12 @@ import { TemahComponent } from "../temah/temah.component";
   standalone: true,
   imports: [TemahComponent],
   templateUrl: './temap.component.html',
-  styles: ``
+  styleUrl: './temap.component.css'
 })
 export class TemapComponent {
-  title = 'Hola desde papa';
+  title = 'hola desde papa';
   mensaje2:string=""
   recibirMensaje(mensaje:string){
     this.mensaje2=mensaje
   }
-
 }
